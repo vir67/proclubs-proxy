@@ -2,7 +2,7 @@ export default async function handler(req, res) {
   const url = 'https://proclubs.ea.com/api/fc/clubs/matches?matchType=friendlyMatch&platform=common-gen5&clubIds=90182';
   const r = await fetch(url, {
     headers: {
-      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)',
+      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36',
       'Accept': 'application/json, text/plain, */*',
       'Referer': 'https://www.ea.com/',
       'Origin': 'https://www.ea.com',
